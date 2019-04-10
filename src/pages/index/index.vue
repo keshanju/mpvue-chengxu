@@ -1,12 +1,22 @@
 <template>
-  <div id="app">
-    1111
+  <div>
+    <div>
+        11
+    </div>
+    <div>
+      22
+    </div>
   </div>
 </template>
 
 <script>
 
   export default {
+
+    created() {
+      // let app = getApp()
+    },
+
     data() {
       return {
 
@@ -19,10 +29,6 @@
 
     methods: {
 
-    },
-
-    created() {
-      // let app = getApp()
     }
   };
 </script>
